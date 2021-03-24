@@ -21,7 +21,7 @@ library(xtable)
 ##### Prepare COVID-19 data #####
 
 # Read in data
-covid19.df = read.csv(file="~/time_series_covid19_deaths_global.csv")
+covid19.df = read.csv(file="time_series_covid19_deaths_global.csv")
 covid19.df[is.na(covid19.df)] = 0
 
 # Calculate daily cumulative sum by country
