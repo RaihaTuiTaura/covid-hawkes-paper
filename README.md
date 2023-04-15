@@ -20,3 +20,5 @@ The R scripts of the form 'hp_covid19_deaths_XX.R' contain the code needed to ru
 Each of these scripts sources the functions required to load and prepare the data, load the MCMC algorithm, and any other bespoke functions required for the particular analysis being performed.
 
 Algorithmic parameters are also read into each of these scripts. For each country, tuning parameters and parameters for data preparation are saved in 'mcmc_pars.RData'. The file 'cov_mat_deaths.RData' contains covariance matrices required for the MALA algorithm, that were obtained from previous MCMC runs using single Metropolis-Hastings updates.
+
+These details relate to the master branch of this repository. However, a similar structure is followed in the branch 'subsequent_phases', that extends the analysis by adding in more recent data (up to 2021).
